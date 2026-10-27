@@ -1,79 +1,143 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Poner acá el título del portafolio</title>
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="assets/icons/css/all.css">
-     <!-- Link Swiper's CSS -->
-     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tarjeta Éxito — Cupo preaprobado</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700;800&family=Figtree:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+  <div class="phone-frame" aria-label="Vista móvil Tarjeta Éxito">
+    <div class="screen">
+      <header class="topbar">
+        <a class="brand" href="#" aria-label="Tarjeta Éxito">
+          <span class="brand-mark" aria-hidden="true"></span>
+          <span class="brand-text">tarjeta <em>éxito</em></span>
+        </a>
+        <button class="menu-btn" type="button" aria-label="Abrir menú">
+          <span></span><span></span><span></span>
+        </button>
+      </header>
 
-
-    <div class="header">
-        <h1>MONICA GAVIRIA</h1>
-      </div>
-      
-      <div class="row">
-      
-          <div class="col-3 col-s-12">
-          <div class="aside">
-            <img src="imgs/mk1.jpeg.jpg" class="responsive">
-            <img src="imgs/mk2.jpeg.jpg"  class="top responsive" />
+      <main class="content">
+        <section class="hero">
+          <div class="hero-copy">
+            <p class="status-line">Oferta personal · Preaprobada</p>
+            <h1>Tu <span>Tarjeta Éxito</span> te espera</h1>
           </div>
-        </div>
 
-      
-        <div class="col-6 col-s-9">
-          <h1>PERFIL</h1>
-          <p>Soy como dicen, la oveja creativa de la familia, me gusta compartir, trabajar en equipo y
-            melómana por naturaleza, amo la fotografía.
-              </p>
-            <p>  También soy una persona cumplida, responsable, soñadora, luchadora algo loca por la vida o al menos es lo que dice mi mamá y las mamás siempre tienen la razón. Amante del diseño gráfico, me gusta encontrar el equilibrio entre lo simple y lo intenso del diseño, expresar y plasmar ideas.
-            </p> 
-            <p> Soy estudiante de publicidad de la Universidad Católica Luis Amigó, Técnica en diseño gráfico del CESDE, con diplomado en Diseño UX/UI Intensivo de Nogma, actualmente me encuentro estudiando inglés nivel 2 de Open English.</p>
-            <h1>CONOCIMIENTOS</h1>
+          <div class="hero-visual" aria-hidden="true">
+            <div class="spark spark-a"></div>
+            <div class="spark spark-b"></div>
+            <div class="spark spark-c"></div>
+            <div class="card-art">
+              <div class="card-face">
+                <div class="card-logo">
+                  <span class="card-logo-dot"></span>
+                  <span>tarjeta éxito</span>
+                </div>
+                <div class="card-chip"></div>
+                <div class="card-footer">
+                  <span class="card-network">mastercard</span>
+                  <span class="mc"><i></i><i></i></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
 
-            <div class="flex-container">
-            <div><img src="imgs/Ai.png" alt="" class="responsive"></div>
-            <div><img src="imgs/Xd.png" alt="" class="responsive"></div>
-            <div><img src="imgs/Ps.png" alt="" class="responsive"></div>  
-            <div><img src="imgs/Pr.png" alt="" class="responsive"></div> 
+        <section class="offer" aria-labelledby="offer-title">
+          <p id="offer-title" class="offer-label">Tienes un cupo preaprobado de</p>
+
+          <div class="offer-panel">
+            <div class="offer-amount">
+              <svg class="offer-icon" viewBox="0 0 24 24" aria-hidden="true">
+                <rect x="2" y="5" width="20" height="14" rx="2.5" fill="none" stroke="currentColor" stroke-width="1.8"/>
+                <path d="M2 10h20" stroke="currentColor" stroke-width="1.8"/>
+                <path d="M6 15h4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+              </svg>
+              <p class="amount">$5.500.000</p>
             </div>
-        </div>
-      
-        <div class="col-3 col-s-3 menu">
-          <ul>
-            <!-- <li class="dropdown"></li> -->
-         <li><div class="dropdown">
-            <button class="dropbtn">EDUCACIÓN <i class="fa-solid fa-graduation-cap"></i></button>
-            <div class="dropdown-content">
-            <a href="#">Bachiller 2004 <br>Colegio Universidad Pontifica Bolivariana</a>
-            <a href="#">Pregrado - Actualmente <br> Universidad Católica Luis Amigó</a>
-            <a href="#">Técnica en Diseñ Gráfico Digital <br> CESDE</a>
-            <a href="#">Diplomado UI/UX <br> Nogma</a>
-            </div>
-        </li>
-            <a href="https://www.behance.net/MonikGaviria" target="_blank"> <li>BEHANCE <i class="fa-brands fa-behance-square"></i></li></a>
-            <a href="A1-MonicaGaviria-2022.pdf" download><li>DESCARGAR CURRICULUM <i class="fa fa-download"></i></li></a>
-            
+            <p class="offer-perk">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <circle cx="9" cy="9" r="6.2" fill="none" stroke="currentColor" stroke-width="1.7"/>
+                <path d="M14.2 14.2 20 20" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/>
+                <path d="M7 9h4M9 7v4" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/>
+              </svg>
+              Descuentos exclusivos en almacenes Éxito
+            </p>
+          </div>
+
+          <p class="urgency">
+            <span class="urgency-dot" aria-hidden="true"></span>
+            Aprovecha tu oferta por tiempo limitado
+          </p>
+        </section>
+
+        <section class="benefits" aria-labelledby="benefits-title">
+          <h2 id="benefits-title">Beneficios para aprovechar</h2>
+
+          <ul class="benefit-list">
+            <li>
+              <a href="#" class="benefit-item">
+                <span class="benefit-icon tone-yellow" aria-hidden="true">
+                  <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.2" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M9.2 15.2 14.8 8.8M9.6 9.2h.01M14.4 14.8h.01" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+                </span>
+                <span class="benefit-text">
+                  <strong>Descuentos semanales exclusivos</strong>
+                  <span>Ahorra en ofertas seleccionadas</span>
+                </span>
+                <span class="chevron" aria-hidden="true"></span>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="benefit-item">
+                <span class="benefit-icon tone-coral" aria-hidden="true">
+                  <svg viewBox="0 0 24 24"><path d="M8 9V8a4 4 0 0 1 8 0v1" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><path d="M6.5 9h11l-.8 10.2a2 2 0 0 1-2 1.8H9.3a2 2 0 0 1-2-1.8L6.5 9Z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg>
+                </span>
+                <span class="benefit-text">
+                  <strong>Beneficios en comercios</strong>
+                  <span>Conoce promociones y aliados vigentes</span>
+                </span>
+                <span class="chevron" aria-hidden="true"></span>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="benefit-item">
+                <span class="benefit-icon tone-sky" aria-hidden="true">
+                  <svg viewBox="0 0 24 24"><path d="M12 20.4S5 16.2 5 10.8A4.4 4.4 0 0 1 12 7.2a4.4 4.4 0 0 1 7 3.6C19 16.2 12 20.4 12 20.4Z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><circle cx="12" cy="11.2" r="1.4" fill="currentColor"/></svg>
+                </span>
+                <span class="benefit-text">
+                  <strong>Asistencias y servicios</strong>
+                  <span>Consulta cobertura y condiciones</span>
+                </span>
+                <span class="chevron" aria-hidden="true"></span>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="benefit-item">
+                <span class="benefit-icon tone-yellow" aria-hidden="true">
+                  <svg viewBox="0 0 24 24"><rect x="2.5" y="5" width="19" height="14" rx="2.5" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M2.5 10h19" stroke="currentColor" stroke-width="1.8"/><path d="M7 15h5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+                </span>
+                <span class="benefit-text">
+                  <strong>Conoce los detalles de la tarjeta</strong>
+                  <span>Cupo, tasas y condiciones claras</span>
+                </span>
+                <span class="chevron" aria-hidden="true"></span>
+              </a>
+            </li>
           </ul>
-        </div>
-      </div>
+        </section>
+      </main>
 
-        
-      <div class="footer">
-        <p>Clase de diseño Web / Publicidad 2022 / <a href="mailto:monikdere@gmail.com" target="_self">Monica Gaviria C.</p>
-      </div>
-      
-     
-
-
+      <footer class="cta-bar">
+        <button class="cta" type="button">Quiero mi tarjeta</button>
+        <button class="cta-secondary" type="button">Ver más tarde</button>
+      </footer>
+    </div>
+  </div>
 </body>
 </html>
