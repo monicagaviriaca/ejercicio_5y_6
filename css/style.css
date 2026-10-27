@@ -154,8 +154,8 @@ ul {
   grid-template-columns: 1.15fr 0.85fr;
   gap: 8px;
   align-items: center;
-  min-height: 168px;
-  padding: 12px 0 8px;
+  min-height: 176px;
+  padding: 16px 0 12px;
   animation: rise 0.7s ease both;
 }
 
@@ -324,7 +324,7 @@ ul {
 
 /* ——— Offer ——— */
 .offer {
-  margin-top: 8px;
+  margin-top: 12px;
   animation: rise 0.7s ease 0.12s both;
 }
 
@@ -339,17 +339,16 @@ ul {
   overflow: hidden;
   background: var(--surface-2);
   box-shadow: var(--shadow);
+  border: 1px solid rgba(17, 17, 17, 0.04);
 }
 
 .offer-amount {
   display: flex;
   align-items: center;
   gap: 12px;
-  padding: 18px 18px 16px;
+  padding: 20px 18px 18px;
   background:
-    linear-gradient(120deg, var(--yellow) 0%, #ffe866 55%, var(--yellow) 100%);
-  background-size: 180% 100%;
-  animation: shine 4.5s ease-in-out infinite;
+    linear-gradient(135deg, #ffe34d 0%, var(--yellow) 48%, #ffcc00 100%);
 }
 
 .offer-icon {
@@ -371,11 +370,11 @@ ul {
   display: flex;
   align-items: center;
   gap: 10px;
-  padding: 14px 18px;
+  padding: 15px 18px;
   font-size: 0.9rem;
   font-weight: 500;
   color: var(--ink-soft);
-  border-top: 1px solid var(--line);
+  background: linear-gradient(180deg, #fffef8 0%, #ffffff 100%);
 }
 
 .offer-perk svg {
@@ -407,7 +406,7 @@ ul {
 
 /* ——— Benefits ——— */
 .benefits {
-  margin-top: 28px;
+  margin-top: 32px;
   animation: rise 0.7s ease 0.22s both;
 }
 
@@ -523,7 +522,7 @@ ul {
 .cta {
   width: 100%;
   border: 0;
-  border-radius: 999px;
+  border-radius: 14px;
   padding: 15px 20px;
   background: var(--ink);
   color: #fff;
@@ -591,16 +590,6 @@ ul {
   50% {
     opacity: 1;
     transform: scale(1.15) rotate(18deg);
-  }
-}
-
-@keyframes shine {
-  0%,
-  100% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
   }
 }
 
